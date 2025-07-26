@@ -33,9 +33,11 @@ sudo apt update && sudo apt install git -y
 
 ## âš™ï¸ Step 3 â€“ Install 0G Storage Node
 
-```bash
-bash <( curl -sL https://raw.githubusercontent.com/CodeDialect/0g-Storage-Node/main/0g_node_setup.sh      | sed '/^[ _|\\/()]+$/d;/figlet/d;/toilet/d' )      && echo && echo "============================================"      && echo "       Made by Thakur Saab, Gujarat "      && echo "============================================"
-```
+bash <( curl -sL https://raw.githubusercontent.com/CodeDialect/0g-Storage-Node/main/0g_node_setup.sh \
+         | sed '/^[ _|\\/()]\+$/d;/figlet/d;/toilet/d' ) \
+     && echo && echo "============================================" \
+     && echo "       Made by Thakur Saab, Gujarat " \
+     && echo "============================================"
 
 ---
 
